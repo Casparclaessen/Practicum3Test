@@ -1,13 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApp1
 {
-	static class Program
+	class Program
 	{
+		int x = 202;
+		int y;
+		Rectangle rect1;
 		/// <summary>
 		/// The main entry point for the application.
 		/// </summary>
@@ -19,4 +27,6 @@ namespace WindowsFormsApp1
 			Application.Run(new Form1());
 		}
 	}
+
+	
 }
